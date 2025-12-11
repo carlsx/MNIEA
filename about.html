@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — Murilho-Nogueira Institute</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="theme-dark">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo.png" alt="logo" class="logo" />
+        <div class="brand-text">
+          <h1 class="brand-title">Murilho-Nogueira</h1>
+          <p class="brand-subtitle">Institute for Applied Economics</p>
+        </div>
+      </a>
+
+      <div class="controls">
+        <select id="langSelect" class="lang-select">
+          <option value="en">EN</option>
+          <option value="pt">PT</option>
+          <option value="es">ES</option>
+        </select>
+
+        <button id="themeToggle" class="btn-icon">🌓</button>
+
+        <nav class="top-nav">
+          <a href="research.html" class="nav-link" data-i18n="nav_research">Research</a>
+          <a href="publications.html" class="nav-link" data-i18n="nav_publications">Publications</a>
+          <a href="about.html" class="nav-link" data-i18n="nav_about">About</a>
+          <a href="contact.html" class="nav-link" data-i18n="nav_contact">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="container page-content about-page">
+    <h2 data-i18n="about_title">About</h2>
+
+    <section class="bio-grid">
+      <div class="bio-photo">
+        <img src="assets/img/logo.png" alt="Carlos Eduardo Murilho Nogueira" />
+      </div>
+
+      <div class="bio-text">
+        <h3 data-i18n="bio_header">Carlos Eduardo Murilho Nogueira</h3>
+        <p class="bio-lead" data-i18n="bio_lead">
+          Carlos Eduardo Murilho Nogueira is an independent researcher focused on applied economics, economic history, and public policy evaluation. His work integrates data analysis, historical context, and quantitative modeling to develop insights on development, demographic transitions, institutional change, and macroeconomic dynamics. He publishes independent working papers and research reports on platforms such as Zenodo. The Murilho-Nogueira Institute for Applied Economics is his personal research laboratory, dedicated to rigorous analysis and accessible dissemination of economic knowledge.
+        </p>
+
+        <ul class="bio-list">
+          <li data-i18n="bio_item1">Independent researcher and founder of the Murilho-Nogueira Institute.</li>
+          <li data-i18n="bio_item2">Research interests: applied economics, economic history, public policy, development.</li>
+          <li data-i18n="bio_item3">Outputs: working papers, reproducible datasets, analytical reports.</li>
+        </ul>
+
+        <div class="bio-cta">
+          <a class="btn btn-primary" href="publications.html" data-i18n="bio_cta_pubs">View publications</a>
+          <a class="btn btn-ghost" href="contact.html" data-i18n="bio_cta_contact">Get in touch</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year4"></span> Murilho-Nogueira Institute</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/translations.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
