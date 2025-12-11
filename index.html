@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Murilho-Nogueira Institute for Applied Economics</title>
+  <link rel="icon" href="assets/img/logo.png" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="theme-dark">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo.png" alt="Murilho-Nogueira logo" class="logo" />
+        <div class="brand-text">
+          <h1 class="brand-title">Murilho-Nogueira</h1>
+          <p class="brand-subtitle">Institute for Applied Economics</p>
+        </div>
+      </a>
+
+      <div class="controls">
+        <select id="langSelect" class="lang-select" aria-label="Language selector">
+          <option value="en">EN</option>
+          <option value="pt">PT</option>
+          <option value="es">ES</option>
+        </select>
+
+        <button id="themeToggle" class="btn-icon" aria-label="Toggle theme">🌓</button>
+
+        <nav class="top-nav" aria-label="Main navigation">
+          <a href="research.html" class="nav-link" data-i18n="nav_research">Research</a>
+          <a href="publications.html" class="nav-link" data-i18n="nav_publications">Publications</a>
+          <a href="about.html" class="nav-link" data-i18n="nav_about">About</a>
+          <a href="contact.html" class="nav-link" data-i18n="nav_contact">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <h2 class="hero-title" data-i18n="hero_title">Independent Research • Applied Economics • Data-Driven Insights</h2>
+          <p class="hero-lead" data-i18n="hero_lead">
+            Carlos Eduardo Murilho Nogueira — independent researcher integrating historical context, quantitative analysis, and policy evaluation to inform development and macro decisions.
+          </p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="about.html" data-i18n="cta_learn">Learn more</a>
+            <a class="btn btn-ghost" href="publications.html" data-i18n="cta_papers">See publications</a>
+          </div>
+        </div>
+
+        <aside class="hero-aside">
+          <div class="card stat-card">
+            <h3 data-i18n="stat_header">Institute</h3>
+            <p data-i18n="stat_text">Personal research lab for applied economics & policy analysis.</p>
+          </div>
+
+          <div class="card stat-card">
+            <h3 data-i18n="stat_header2">Outputs</h3>
+            <p data-i18n="stat_text2">Working papers, Zenodo reports, reproducible datasets.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="features container">
+      <div class="feature" >
+        <h4 data-i18n="f1_title">Research Areas</h4>
+        <p data-i18n="f1_text">Applied economics, economic history, public policy, development, econometrics.</p>
+      </div>
+      <div class="feature">
+        <h4 data-i18n="f2_title">Practice</h4>
+        <p data-i18n="f2_text">Data-driven analysis, time series, causal inference, policy evaluation.</p>
+      </div>
+      <div class="feature">
+        <h4 data-i18n="f3_title">Publish</h4>
+        <p data-i18n="f3_text">Open-access working papers; code and datasets available on request.</p>
+      </div>
+    </section>
+
+    <section class="cta-strip">
+      <div class="container">
+        <p data-i18n="cta_strip">Want the full research kit or collaboration? Contact the Institute.</p>
+        <a class="btn btn-outline" href="contact.html" data-i18n="cta_contact">Contact</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Murilho-Nogueira Institute for Applied Economics — <span data-i18n="footer_rights">All rights reserved</span></p>
+      <nav class="social">
+        <a href="#" aria-label="GitHub" class="social-link">GitHub</a>
+        <a href="#" aria-label="Zenodo" class="social-link">Zenodo</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="assets/js/translations.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
